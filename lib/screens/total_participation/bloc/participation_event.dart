@@ -43,3 +43,15 @@ class GetPaymentDetailEvent extends ParticipationEvent {
         paymentId,
       ];
 }
+class UpdateSelectedDate extends ParticipationEvent {
+  final String selectedDate;
+
+  const UpdateSelectedDate(
+    this.selectedDate,
+  );
+
+  @override
+  List<Object> get props => [
+    selectedDate,
+      ];
+}

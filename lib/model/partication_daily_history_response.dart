@@ -57,12 +57,13 @@ class PaymentItem {
 
   PaymentItem.fromJson(Map<String, dynamic> json)
       : userid = json['user_id'],
-        superSaveRequestid = json['user_id'],
-        payoutDate = json['user_id'],
-        updatedAt = json['user_id'],
-        dailyPayout = json['user_id'],
-        cumulativePayment = json['user_id'],
-        uuid = json['user_id'],
-        weekHistoryId = json['user_id'],
-        dailyPayoutMsq = json['user_id'];
+        superSaveRequestid = json['super_save_request_id'],
+        payoutDate = json['payout_date'],
+        updatedAt = json['updatedAt'],
+        dailyPayout = json['daily_payout'],
+        createdAt = json['createdAt'],
+        cumulativePayment = json['cumulative_payment'],
+        uuid = json['uuid'],
+        weekHistoryId = json['week_history_id'],
+        dailyPayoutMsq = json['daily_payout_msq'];
 }
